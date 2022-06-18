@@ -1,0 +1,86 @@
+@font-face {
+  font-family: 'lost-fish';
+  src: url("LostFish-5DOz.ttf") format("truetype");
+}
+
+body {
+  min-height: 100vh;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  background-color: #f2f2f2;
+  font-family: 'lost-fish', sans-serif;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 20px;
+  text-align: center;
+  background-color: #008bce;
+  color: #f2f2f2;
+  letter-spacing: 3px;
+  overflow-x: hidden;
+}
+
+body h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  text-shadow: 10px 10px 14px #00496e;
+}
+
+body h2 {
+  font-size: 1em;
+  line-height: 22px;
+  text-shadow: 10px 10px 14px #00496e;
+}
+
+body input {
+  padding: 10px;
+  border: 4px solid white;
+  border-radius: 30px;
+  background-color: #e74729;
+  color: #ffffff !important;
+  text-align: center;
+  font-size: 1.2em;
+  font-family: inherit    !important;
+  -webkit-box-shadow: 10px 10px 14px #00496e;
+          box-shadow: 10px 10px 14px #00496e;
+}
+
+body input::-webkit-input-placeholder {
+  color: #ffffff !important;
+}
+
+body input:-ms-input-placeholder {
+  color: #ffffff !important;
+}
+
+body input::-ms-input-placeholder {
+  color: #ffffff !important;
+}
+
+body input::placeholder {
+  color: #ffffff !important;
+}
+
+body #submitButton {
+  padding: 10px 30px;
+  border: 2px solid white;
+  border-radius: 30px;
+  background-color: #e74729;
+  color: #ffffff !important;
+  text-align: center;
+  font-size: 1em;
+  cursor: pointer;
+}
+/*# sourceMappingURL=style.css.map */
